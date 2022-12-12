@@ -1,7 +1,7 @@
 # Remix Online Store
  [Remix](https://remix.run/) is a brand-new full stack web framework. It is used for server-side rendering (SSR). Unlike vanilla React, where data is fetched on the frontend and then rendered on the screen, Remix fetches data on the backend and serves the HTML directly to the user. It was created by the people behind [React Router](https://reactrouter.com/en/main).
  
- In the Remix Online Store app I tried to use some Remix features that makes the app development easier - different Remix hooks (useLoaderData, useAtionData, useFetcher, useMatches, useTransition, useCatch), different routes (layout, dynamic, dot-delimited, pathless, resource etc.), error handling (ErrorBoundary, CatchBoundary) and links, meta, handler, action, loader exported functions. I also use Remix prefetch to fetch data ahead of time. I disable JavaScript on pages where we have static content to avoid unnecessary downloads.
+ In the Remix Online Store app I tried to use some Remix features that makes the app development easier - different Remix hooks (useLoaderData, useAtionData, useFetcher, useMatches, useTransition, useCatch, useNavigate), different routes (layout, dynamic, dot-delimited, pathless, resource etc.), error handling (ErrorBoundary, CatchBoundary) and links, meta, action, loader, headers exported functions. I also use Remix prefetch to fetch data ahead of time. I disable JavaScript on pages where we have static content to avoid unnecessary downloads.
  
  [Prisma](https://www.prisma.io/), a next-generation ORM is used in our application to work with MongoDB. The app uses session cookies for authentication.
 
