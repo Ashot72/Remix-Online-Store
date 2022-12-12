@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import bootstrapCSS from "bootstrap/dist/css/bootstrap.min.css";
 import fontawsome from '@fortawesome/fontawesome-free/css/all.css'
 import Error from "./Error";
-import __goods from "./routes/__goods";
 import errorStyles from "~/styles/error.css"
 const {
   Links,
